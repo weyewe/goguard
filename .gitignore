@@ -12,3 +12,4 @@
 !/log/.keep
 /tmp
 /config/deploy.rb
+/config/secrets.yml

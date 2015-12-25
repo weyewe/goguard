@@ -15,5 +15,7 @@ class HomeController < ApplicationController
 	end
 
 	def post_order
+ 
+
 	end
 end
