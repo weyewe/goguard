@@ -1,4 +1,4 @@
-class HomeController < ApplicationController
+class LeadsController < ApplicationController
 
 
 	def create
