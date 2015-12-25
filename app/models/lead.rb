@@ -43,7 +43,7 @@ class Lead < ActiveRecord::Base
 
     if new_object.save
       token = Rails.application.secrets.telebot_token
-      chat_id = Rails.application.secrets.test_chat_id
+      chat_id = Rails.application.secrets.chat_group_id
      
       Telegram::Bot::Client.run(token) do |bot|
 

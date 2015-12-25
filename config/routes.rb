@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'home#index'
 
-  get 'amankan_segera' => 'home#post_order'
+  get 'finish_application' => 'home#finish_application' , :as => :finish_application
 
   resources :leads
 

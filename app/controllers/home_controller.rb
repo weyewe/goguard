@@ -14,7 +14,7 @@ class HomeController < ApplicationController
 		@default_product  = "1"
 	end
 
-	def post_order
+	def finish_application
  
 	
 
