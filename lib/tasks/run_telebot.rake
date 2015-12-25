@@ -17,6 +17,9 @@ task :run_telebot => :environment do
 end
 
 
+ 
+
+
 task :telebot_send_single_message => :environment do
 	token = Rails.application.secrets.telebot_token
 	chat_id = Rails.application.secrets.chat_group_id

@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#">GOGuard</a>
+                <a class="navbar-brand topnav" href="<%= root_url %>">GOGuard</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -150,7 +150,7 @@
 
                 <%= simple_form_for @lead do |f| %>
                   <%= f.input :name, :placeholder => "Ruhut Panjaitan? Sitorus?",
-                        :label => "Nama target pengamanan" %>
+                        :label => "Nama Anda" %>
                   <%#= f.input :email, :placeholder => "Isi dengan alamat email yang dapat kami hubungi. Contoh: someone@gmail.com" %>
                   <%= f.input :phone_number, placeholder: 'Nomor telpon, seperti 0821888999',
                         :label => "Nomor Telepon" %>
